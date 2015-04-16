@@ -1,0 +1,17 @@
+[user]
+        name = Dahir Warsame
+        email = dahirwarsame@gmail.com
+[push]
+        default = simple
+[alias]
+        a  = add
+        b  = branch
+        c  = commit
+        co = checkout
+        d  = diff
+        ds = diff --staged
+        l = log --sparse --pretty=format:'%Cred%h%Creset - %C(yellow)%s%Creset %C(green)<%an>%Creset' -n
+        lf = log --pretty=fuller
+        p  = push
+        s  = status -s
+        who = shortlog -n -s --no-merges
