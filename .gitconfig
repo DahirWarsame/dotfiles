@@ -1,17 +1,29 @@
 [user]
         name = Dahir Warsame
-        email = dahirwarsame@gmail.com
+        email = dahir@bridgemarketing.nl
 [push]
         default = simple
 [alias]
-        a  = add
-        b  = branch
-        c  = commit
+        a = add
+
+        b = branch
+
+        c = commit
         co = checkout
-        d  = diff
+
+        d = diff
         ds = diff --staged
+
+        hist = log --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset%C(yellow)%d%Creset %Cgreen(%cr)%Creset%n%w(80,8,8)%s%n' --graph --name-status
+
         l = log --sparse --pretty=format:'%Cred%h%Creset - %C(yellow)%s%Creset %C(green)<%an>%Creset' -n
+        lastcommit = log --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset%C(yellow)%d%Creset %Cgreen(%cr)%Creset%n%w(80,8,8)%s%n' --graph --name-status -n 1
         lf = log --pretty=fuller
-        p  = push
-        s  = status -s
-        who = shortlog -n -s --no-merges
+
+        m = merge
+
+        p = push
+        pull = pull --verbose
+
+        s = status -sb
+        score = shortlog -s --no-merges
