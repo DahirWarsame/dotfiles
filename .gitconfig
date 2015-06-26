@@ -23,7 +23,6 @@
         m = merge
 
         p = push
-        pull = pull --verbose
 
         s = status -sb
         score = shortlog -s --no-merges
