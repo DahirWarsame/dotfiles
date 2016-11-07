@@ -2,6 +2,7 @@
 
 # {{{
 # Author:  Dahir "illwind" Warsame <yazure@dahirwarsame.me>
+#
 # License: GPLv3
 # }}}
 
